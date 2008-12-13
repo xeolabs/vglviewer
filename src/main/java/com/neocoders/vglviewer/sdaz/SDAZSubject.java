@@ -10,16 +10,4 @@ public interface SDAZSubject {
     public SDAZWindow getWindow();
 
     public void update();
-
-    /**
-     * @supplierCardinality 1
-     * @clientCardinality 1 
-     */
-    /*# SDAZWindow lnkSDAZWindow; */
-
-    /**
-     * @supplierCardinality 1
-     * @clientCardinality 1 
-     */
-    /*# SDAZViewport lnkSDAZViewport; */
 }

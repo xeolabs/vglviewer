@@ -1,37 +1,19 @@
 package com.neocoders.vglviewer.sdaz;
 
 class SDAZZooming extends SDAZState {
-    /**
-     * @supplierCardinality 1
-     * @clientCardinality 1 
-     */
+   
     private static SDAZSubject subject;
 
-    /**
-     * @clientCardinality 1
-     * @supplierCardinality 1 
-     * @supplierRole drag pos
-     */
+
     private static SDAZPoint mouseDownPos;
 
-    /**
-     * @clientCardinality 1
-     * @supplierCardinality 1 
-     * @supplierRole mouse down pos
-     */
+
     private static SDAZPoint mouseOffsetPos;
 
-    /**
-     * @supplierRole restoreTarget
-     * @supplierCardinality 1 
-     */
+
     private static SDAZViewport originalViewport;
 
-    /**
-     * @supplierRole initial
-     * @supplierCardinality 1
-     * @clientCardinality 1 
-     */
+
     private static SDAZViewport restorationViewport;
     private static double xMoved;
     private static double yMoved;
