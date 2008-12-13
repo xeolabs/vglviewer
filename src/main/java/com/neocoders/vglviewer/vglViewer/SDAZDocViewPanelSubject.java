@@ -2,17 +2,18 @@
 
 package com.neocoders.vglviewer.vglViewer;
 
-import com.neocoders.vglviewer.sdaz.SDAZWindow;
+
 import com.neocoders.vglviewer.vglRenderer.VGLWindow;
-import com.neocoders.vglviewer.sdaz.SDAZViewport;
 import com.neocoders.vglviewer.vglRenderer.VGLViewport;
-import com.neocoders.vglviewer.sdaz.SDAZSubject;
 import com.neocoders.vglviewer.docViewPanel.DocViewPanel;
+import com.neocoders.sdaz.SDAZSubject;
+import com.neocoders.sdaz.SDAZWindow;
+import com.neocoders.sdaz.SDAZViewport;
 
 
 public class SDAZDocViewPanelSubject implements SDAZSubject {
     public SDAZDocViewPanelSubject(DocViewPanel panel) {
-        this.docViewPanel= panel;
+        this.docViewPanel = panel;
     }
 
     public SDAZWindow getWindow() {

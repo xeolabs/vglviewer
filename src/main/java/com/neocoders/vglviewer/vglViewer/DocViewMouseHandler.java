@@ -2,7 +2,7 @@
 
 package com.neocoders.vglviewer.vglViewer;
 
-import com.neocoders.vglviewer.sdaz.SDAZDriver;
+import com.neocoders.sdaz.SDAZDriver;
 import java.awt.event.MouseEvent;
 
 import com.neocoders.vglviewer.docViewPanel.DocViewPanel;

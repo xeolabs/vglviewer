@@ -10,13 +10,13 @@ import java.awt.Point;
 
 import java.awt.Color;
 import com.neocoders.vglviewer.vglDocument.VGLDocument;
-import com.neocoders.vglviewer.sdaz.SDAZPoint;
+import com.neocoders.sdaz.SDAZPoint;
 import com.neocoders.vglviewer.vglRenderer.VGLDocumentRenderer;
-import com.neocoders.vglviewer.sdaz.SDAZDriver;
+import com.neocoders.sdaz.SDAZDriver;
 import com.neocoders.vglviewer.vglRenderer.VGLViewport;
 import com.neocoders.vglviewer.vglDocument.VGLBoundary;
 import com.neocoders.vglviewer.vglRenderer.VGLWindow;
-import com.neocoders.vglviewer.sdaz.SDAZSubject;
+import com.neocoders.sdaz.SDAZSubject;
 
 import java.awt.Checkbox;
 import java.awt.Label;
