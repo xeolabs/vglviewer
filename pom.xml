@@ -12,12 +12,12 @@
         <repository>
             <uniqueVersion>false</uniqueVersion>
             <id>neocoders-releases</id>
-            <url>http://www.neocoders.com/nexus/content/repositories/releases</url>
+            <url>http://nexus.xeolabs.com/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
             <uniqueVersion>false</uniqueVersion>
             <id>neocoders-snapshots</id>
-            <url>http://www.neocoders.com/nexus/content/repositories/snapshots</url>
+            <url>http://nexus.xeolabs.com/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -58,11 +58,6 @@
     </build>
 
     <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-        </dependency>
         <dependency>
             <groupId>be.cyberelf.nanoxml</groupId>
             <artifactId>nanoxml</artifactId>
