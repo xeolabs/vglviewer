@@ -2,11 +2,14 @@
 VGLViewer
 ----------------------
 
-COSC427 Project,
-Lindsay Stanley Kay, 
-Written on September 25, 2004
+A simple vector-based 2D renderer with speed-dependent automatic zooming.
 
-Mavenized on December, 2008.
+Course project for COSC427 "Advanced Object-Oriented Design".
+
+Lindsay Kay
+University of Canterbury,
+Authored September 25, 2004
+Mavenized December, 2008.
 
 
 Contents of this Distribution
